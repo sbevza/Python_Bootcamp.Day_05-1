@@ -35,30 +35,30 @@
 <h2 id="chapter-iii" >Chapter III</h2>
 <h2 id="intro" >Intro</h2>
 
- &mdash; Who was that, Doctor? We barely made out alive!
+ "Who was that, Doctor? We barely made out alive!"
 
- &mdash; They are called daleks, one of the most merciless and violent species in the universe. 
- Nevermind though, they can't get us here.
+ "They are called daleks, one of the most merciless and violent species in the universe. 
+ Nevermind though, they can't get us here."
 
- &mdash; In this police box? By the way, why is it bigger on the inside?
+ "In this police box? By the way, why is it bigger on the inside?"
 
- &mdash; TARDIS' Dimensional modeling. Anyway, looks like for this adventure we need more paper
- and we're currently out of it.
+ "TARDIS' Dimensional modeling. Anyway, looks like for this adventure we need more paper
+ and we're currently out of it."
 
  Doctor starts running around the room pulling some levers and pressing some buttons. It looks
  completely random for an untrained eye.
 
- &mdash; Paper? What kind, toilet?
+ "Paper? What kind, toilet?"
 
- &mdash; No, that probably wouldn't be a good application. It's psychic paper, see?
+ "No, that probably wouldn't be a good application. It's psychic paper, see?"
 
  Doctor immediately shows directly to your face something with a slight resemblance of a passport.
- It says "Crisis investigator with the UN, Liverpool Division".
+ It says, "Crisis investigator with the UN, Liverpool Division".
 
- &mdash; Are you really with the UN?
+ "Are you really with the UN?"
 
- &mdash; With what now? Nevermind. The thing is it shows you what you want to see and can possibly 
- save us some time. And you will need something similar at that place we're going to.
+ "With what now? Nevermind. The thing is it shows you what you want to see and can possibly 
+ save us some time. And you will need something similar at that place we're going to."
 
 <h2 id="chapter-iv" >Chapter IV</h2>
 <h3 id="exercise-00-fool-me-once">Exercise 00: Fool Me Once</h3>
@@ -67,14 +67,14 @@ In the next moment two weird-looking devices appear from the Doctor's pockets. O
 very unusual screwdriver, and the other one is like a smartphone, but with a couple of tentacles
 on its sides.
 
- &mdash; So, this is an Ood species detector. When you aim the tentacles at someone it will show
- you the most appropriate name of that species in your language.
+ "So, this is an Ood species detector. When you aim the tentacles at someone it will show
+ you the most appropriate name of that species in your language."
 
-You take the device and point its tentacles to the Doctor. The "smartphone" thinks for a moment
-and then the words "Time Lord" appear on its screen in English.
+You take the device and point its tentacles to the Doctor. The 'smartphone' thinks for a moment
+and then the words 'Time Lord' appear on its screen in English.
 
- &mdash; Now, every species in a galactic database has a specific leadership figure or at least 
- some name that will make them stumble for a moment and give you a temporary advantage.
+ "Now, every species in a galactic database has a specific leadership figure or at least 
+ some name that will make them stumble for a moment and give you a temporary advantage."
 
 On one of the TARDIS' screens appears a list of species with examples:
 
@@ -92,19 +92,19 @@ Weeping Angel: The Division Representative
 Zygon: Broton
 ```
 
- &mdash; Are you joking? Would you believe me if I said to you, out of the blue, that I am
- this...Rassilon?
+ "Are you joking? Would you believe me if I said to you, out of the blue, that I am
+ this... Rassilon?"
 
- &mdash; That's not the point. The point is, most of the creatures will be shocked for a second
- just by the very idea that you would suddenly present yourself like that. This is all we need.
+ "That's not the point. The point is, most of the creatures will be shocked for a second
+ just by the very idea that you would suddenly present yourself like that. This is all we need."
 
 You try to figure out how device works and realize that it actually uses a WSGI+HTTP stack for
 presenting results.
 
 Also, while plugging together some cables Doctor gives you one last remark:
 
- &mdash; The Wi-Fi in TARDIS is a bit wonky, you know, especially inside the time stream. So
- currently please don't use any external dependencies.
+ "The Wi-Fi in TARDIS is a bit wonky, you know, especially inside the time stream. So
+ currently please don't use any external dependencies."
 
 ---
 
@@ -127,18 +127,18 @@ The whole application for this task should be just a single file `credentials.py
 <h2 id="chapter-v" >Chapter V</h2>
 <h3 id="exercise-01-screwdriver-song">Exercise 01: Screwdriver Song</h3>
 
- &mdash; So, what about that over device? Some kinda screwdriver, eh?
+ "So, what about that over device? Some kinda screwdriver, eh?"
 
- &mdash; Sonic, yes.
+ "Sonic, yes."
 
- &mdash; What can it do? Can I get one?
+ "What can it do? Can I get one?"
 
- &mdash; Well, it generates a combination of certain frequencies, so you can do...pretty much
- anything!
+ "Well, it generates a combination of certain frequencies, so you can do...pretty much
+ anything!"
 
- &mdash; Can it actually unscrew stuff?
+ "Can it actually unscrew stuff?"
 
- &mdash; Oh, it's kinda tricky. To do that... you know what, here, just play these sound files.
+ "Oh, it's kinda tricky. To do that... you know what, here, just play these sound files."
 
 ---
 
@@ -183,21 +183,21 @@ time lords staying around the TARDIS and aiming at the approaching cybermen. It'
 it was five of them, more the attempt to grasp that all of them are actually the same person, just
 from completely different time periods.
 
- &mdash; Allons-y! - enthusiastically shouts the one in red sneakers. - No destruction, you lot,
- alright?
+ "Allons-y!" enthusiastically shouts the one in red sneakers. "No destruction, you lot,
+ alright?"
 
- &mdash; Obviously. Everyone got their screwdrivers, right? - asks the stern one with gray hair.
+ "Obviously. Everyone got their screwdrivers, right?" asks the stern one with gray hair.
 
- &mdash; I think we can damage the control unit, but it's not enough power. - says the one in
- leather jacket. - But that's why we are all here, isn't it?
+ "I think we can damage the control unit, but it's not enough power," says the one in
+ leather jacket. "But that's why we are all here, isn't it?"
 
- &mdash; Brilliant! - acknowledges the blonde lady. - So each of us...I mean myself...shall take
- two screwdrivers instead of one and perform a sonic blast!
+ "Brilliant!" acknowledges the blonde lady. "So each of us... I mean myself... shall take
+ two screwdrivers instead of one and perform a sonic blast!"
 
 The tall one in a fez turns to you and gives you a wink.
 
- &mdash; Just make sure I won't be interfering with myself. You know you can do it. Trust me, I'm
- the Doctor! - then he looks back at the approaching enemy and adds one more word - Geronimooo!
+ "Just make sure I won't be interfering with myself. You know you can do it. Trust me, I'm
+ the Doctor!" Then he looks back at the approaching enemy and adds one more word, "Geronimooo!"
 
 ---
 
