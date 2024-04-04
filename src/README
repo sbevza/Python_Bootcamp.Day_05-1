@@ -1,0 +1,8 @@
+try {
+    $response = Invoke-WebRequest -Uri "http://127.0.0.1:8888/?species=Oodqq" -UseBasicParsing
+    Write-Output "Status Code: $($response.StatusCode)"
+    Write-Output "Status Description: $($response.StatusDescription)"
+} catch {
+    Write-Output "Status Code: $($_.Exception.Response.StatusCode.value__)"
+    Write-Output "Status Description: $($_.Exception.Response.StatusDescription)"
+}
