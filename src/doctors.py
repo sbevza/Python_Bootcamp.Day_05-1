@@ -4,8 +4,8 @@ import random
 
 
 class Screwdriver:
-    def __init__(self, owner):
-        self.owner = owner
+    def __init__(self):
+        self.owner = None
         self.lock = threading.Lock()
 
 
@@ -17,10 +17,16 @@ class Doctor(threading.Thread):
         self.right_screwdriver = right_screwdriver
 
     def run(self):
-        time.sleep(random.uniform(0.1, 0.5))
-        with self.left_screwdriver.lock:
+        if self.number == 9:
+            first, second = self.right_screwdriver, self.left_screwdriver
+        else:
+            first, second = self.left_screwdriver, self.right_screwdriver
+
+        with first.lock:
+            first.owner = self
             time.sleep(random.uniform(0.1, 0.5))
-            with self.right_screwdriver.lock:
+            with second.lock:
+                second.owner = self
                 self.blast()
 
     def blast(self):
@@ -28,11 +34,11 @@ class Doctor(threading.Thread):
 
 
 if __name__ == "__main__":
-    num_doctors = 50
-    screwdrivers = [Screwdriver(i) for i in range(num_doctors)]
+    num_doctors = 5
+    screwdrivers = [Screwdriver() for i in range(num_doctors)]
 
     doctors = [
-        Doctor(i, screwdrivers[i], screwdrivers[(i + 1) % num_doctors])
+        Doctor(i + 9, screwdrivers[i], screwdrivers[(i + 1) % num_doctors])
         for i in range(num_doctors)
     ]
 
